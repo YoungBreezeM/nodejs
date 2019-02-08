@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <style type="text/css">
+
+    </style>
+</head>
+<body >
+    <form action="/login" method="POST" id="myform" onclick="fomrReset()">
+        用户名: <input type="text" name="uname"/>  <br>
+        密码: <input type="password" name="upwd"/>
+        <input type="submit" value="Submit" id="btn_smt" />
+    </form>
+
+</body>
+</html>
+<script type="text/javascript">
+	var sc = " <%= msg%>";
+	if(sc.length>1)
+	{
+		 alert(sc);
+		 // js的空字符也算一个字节
+	}
+         
+</script>
